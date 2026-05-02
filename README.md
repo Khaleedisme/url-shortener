@@ -63,17 +63,3 @@ GET /api/urls/{shortCode}
 }
 ```
 
-## Project Structure
-src/main/java/com/xalid/urlshortener/
-├── config/
-│   ├── AppProperties.java
-│   └── RedisConfig.java
-├── controller/
-│   └── UrlController.java
-├── exception/
-│   ├── GlobalExceptionHandler.java
-│   └── UrlNotFoundException.java
-├── model/
-│   └── UrlMapping.java
-└── service/
-└── UrlService.java
